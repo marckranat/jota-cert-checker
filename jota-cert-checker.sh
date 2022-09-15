@@ -78,7 +78,7 @@ html_mode(){
 				fi
 				echo "<td style=\"padding: 8px;background-color: #33FF4F;\">${certificate_last_day}</td>" >> $html_file
 				echo "<td style=\"padding: 8px;background-color: #33FF4F;\">${days_left}</td>" >> $html_file
-				echo "<td style=\"padding: 8px;background-color: #33FF4F;\">Ok</td>" >> $html_file
+				echo "<td style=\"padding: 8px;background-color: #33FF4F;\">OK</td>" >> $html_file
 				echo "</tr>" >> $html_file
 
 			elif [ "$days_left" -le "$warning_days" ] && [ "$days_left" -gt "$alert_days" ];then
